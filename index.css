@@ -1,0 +1,8 @@
+html, body{
+  background-color: #ffeead;
+  margin: 16px;
+}
+.container{
+  border: 5px solid #ffcc5c;
+  display: flex;
+}
