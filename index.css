@@ -1,23 +1,28 @@
 html, body {
-  background-color: #ffeead;
+  background-color: #ffffff;
 }
 header {
   position: fixed;
   top: 0;
   left: 10px;
   right: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
 }
 footer {
   position: fixed;
   bottom: 0;
 }
-.headline {
-  text-align: center;
-}
 .container {
   border: 5px solid #ffcc5c;
+}
+.headline {
+  text-align: left;
+}
+.container2 {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end
 }
 .cnopkamenu {
   margin: 2px 2px 2px 2px;
